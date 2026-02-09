@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2ea043;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3fb950;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)" rx="8"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.05" stroke="#3fb950" stroke-width="0.5">
+    <line x1="0" y1="50" x2="1200" y2="50"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    <line x1="100" y1="0" x2="100" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="400" y1="0" x2="400" y2="300"/>
+    <line x1="500" y1="0" x2="500" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="700" y1="0" x2="700" y2="300"/>
+    <line x1="800" y1="0" x2="800" y2="300"/>
+    <line x1="900" y1="0" x2="900" y2="300"/>
+    <line x1="1000" y1="0" x2="1000" y2="300"/>
+    <line x1="1100" y1="0" x2="1100" y2="300"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="950" cy="80" r="60" fill="none" stroke="#2ea043" stroke-width="1" opacity="0.15"/>
+  <circle cx="980" cy="220" r="90" fill="none" stroke="#3fb950" stroke-width="1" opacity="0.1"/>
+  <circle cx="1100" cy="150" r="40" fill="none" stroke="#2ea043" stroke-width="1" opacity="0.12"/>
+
+  <!-- Pixel art icon (8x8 grid, styled like the org avatar) -->
+  <g transform="translate(100, 90)" filter="url(#glow)">
+    <!-- Row 1 -->
+    <rect x="30" y="0" width="15" height="15" fill="#2ea043" opacity="0.7"/>
+    <rect x="45" y="0" width="15" height="15" fill="#3fb950"/>
+    <rect x="60" y="0" width="15" height="15" fill="#2ea043" opacity="0.7"/>
+    <rect x="75" y="0" width="15" height="15" fill="#3fb950"/>
+    <!-- Row 2 -->
+    <rect x="15" y="15" width="15" height="15" fill="#3fb950"/>
+    <rect x="30" y="15" width="15" height="15" fill="#2ea043" opacity="0.5"/>
+    <rect x="45" y="15" width="15" height="15" fill="#3fb950"/>
+    <rect x="60" y="15" width="15" height="15" fill="#2ea043" opacity="0.5"/>
+    <rect x="75" y="15" width="15" height="15" fill="#3fb950"/>
+    <rect x="90" y="15" width="15" height="15" fill="#2ea043" opacity="0.7"/>
+    <!-- Row 3 -->
+    <rect x="0" y="30" width="15" height="15" fill="#2ea043" opacity="0.7"/>
+    <rect x="15" y="30" width="15" height="15" fill="#3fb950"/>
+    <rect x="30" y="30" width="15" height="15" fill="#3fb950"/>
+    <rect x="45" y="30" width="15" height="15" fill="#2ea043" opacity="0.5"/>
+    <rect x="60" y="30" width="15" height="15" fill="#3fb950"/>
+    <rect x="75" y="30" width="15" height="15" fill="#3fb950"/>
+    <rect x="90" y="30" width="15" height="15" fill="#2ea043" opacity="0.7"/>
+    <rect x="105" y="30" width="15" height="15" fill="#3fb950"/>
+    <!-- Row 4 -->
+    <rect x="15" y="45" width="15" height="15" fill="#3fb950"/>
+    <rect x="30" y="45" width="15" height="15" fill="#2ea043" opacity="0.7"/>
+    <rect x="45" y="45" width="15" height="15" fill="#3fb950"/>
+    <rect x="60" y="45" width="15" height="15" fill="#3fb950"/>
+    <rect x="75" y="45" width="15" height="15" fill="#2ea043" opacity="0.5"/>
+    <rect x="90" y="45" width="15" height="15" fill="#3fb950"/>
+    <!-- Row 5 -->
+    <rect x="0" y="60" width="15" height="15" fill="#3fb950"/>
+    <rect x="15" y="60" width="15" height="15" fill="#2ea043" opacity="0.5"/>
+    <rect x="30" y="60" width="15" height="15" fill="#3fb950"/>
+    <rect x="45" y="60" width="15" height="15" fill="#2ea043" opacity="0.7"/>
+    <rect x="60" y="60" width="15" height="15" fill="#3fb950"/>
+    <rect x="75" y="60" width="15" height="15" fill="#3fb950"/>
+    <rect x="90" y="60" width="15" height="15" fill="#2ea043" opacity="0.7"/>
+    <rect x="105" y="60" width="15" height="15" fill="#3fb950"/>
+    <!-- Row 6 -->
+    <rect x="15" y="75" width="15" height="15" fill="#3fb950"/>
+    <rect x="30" y="75" width="15" height="15" fill="#3fb950"/>
+    <rect x="45" y="75" width="15" height="15" fill="#2ea043" opacity="0.5"/>
+    <rect x="60" y="75" width="15" height="15" fill="#3fb950"/>
+    <rect x="75" y="75" width="15" height="15" fill="#2ea043" opacity="0.7"/>
+    <rect x="90" y="75" width="15" height="15" fill="#3fb950"/>
+    <!-- Row 7 -->
+    <rect x="30" y="90" width="15" height="15" fill="#2ea043" opacity="0.7"/>
+    <rect x="45" y="90" width="15" height="15" fill="#3fb950"/>
+    <rect x="60" y="90" width="15" height="15" fill="#2ea043" opacity="0.5"/>
+    <rect x="75" y="90" width="15" height="15" fill="#3fb950"/>
+  </g>
+
+  <!-- Title -->
+  <text x="280" y="135" font-family="'Segoe UI', Arial, sans-serif" font-size="56" font-weight="700" fill="#e6edf3" letter-spacing="-1">
+    Green RO
+  </text>
+
+  <!-- Subtitle -->
+  <text x="282" y="175" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#7d8590" letter-spacing="2">
+    RAGNAROK ONLINE DEVELOPMENT SERVER
+  </text>
+
+  <!-- Accent line -->
+  <rect x="280" y="192" width="120" height="3" fill="url(#accent)" rx="1.5"/>
+
+  <!-- Tech tags -->
+  <g transform="translate(280, 220)">
+    <rect x="0" y="0" width="75" height="26" rx="13" fill="#2ea043" opacity="0.15" stroke="#2ea043" stroke-width="1" opacity="0.3"/>
+    <text x="37" y="17" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#3fb950" text-anchor="middle">rAthena</text>
+
+    <rect x="85" y="0" width="70" height="26" rx="13" fill="#2ea043" opacity="0.15" stroke="#2ea043" stroke-width="1" opacity="0.3"/>
+    <text x="120" y="17" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#3fb950" text-anchor="middle">Docker</text>
+
+    <rect x="165" y="0" width="75" height="26" rx="13" fill="#2ea043" opacity="0.15" stroke="#2ea043" stroke-width="1" opacity="0.3"/>
+    <text x="202" y="17" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#3fb950" text-anchor="middle">Grafana</text>
+
+    <rect x="250" y="0" width="85" height="26" rx="13" fill="#2ea043" opacity="0.15" stroke="#2ea043" stroke-width="1" opacity="0.3"/>
+    <text x="292" y="17" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#3fb950" text-anchor="middle">WireGuard</text>
+
+    <rect x="345" y="0" width="70" height="26" rx="13" fill="#2ea043" opacity="0.15" stroke="#2ea043" stroke-width="1" opacity="0.3"/>
+    <text x="380" y="17" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#3fb950" text-anchor="middle">MySQL</text>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="296" width="1200" height="4" fill="url(#accent)"/>
+</svg>
