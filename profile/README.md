@@ -1,25 +1,34 @@
 <div align="center">
 
-<img src="https://github.com/Green-RO/.github/blob/main/assets/banner.svg?raw=true" alt="Green RO Banner" width="100%" />
+```
+                ____  ____      _    ____    _      _        _    _   _ ____
+               | __ )|  _ \    / \  / ___|  / \    | |      / \  | \ | |  _ \
+               |  _ \| |_) |  / _ \ \___ \ / _ \   | |     / _ \ |  \| | | | |
+               | |_) |  _ <  / ___ \ ___) / ___ \  | |___ / ___ \| |\  | |_| |
+               |____/|_| \_\/_/   \_\____/_/   \_\ |_____/_/   \_\_| \_|____/
+```
 
-# Green RO
+### *"Onde o fogo que arde em silencio forja as maiores lendas."*
 
-### Ragnarok Online Development Server
+<br>
+
+Uma releitura de conteudos esquecidos no passado.
+
+Episodio **Veins** (Arunafeltz) | Pre-Renewal | 9x / 2x / 3x
 
 <br>
 
 ```
-  Em construcao
+  As areias de Veins revelaram ruinas de uma era esquecida.
+  Voce e um Forjador. Seu destino esta sob o fogo.
 ```
 
 <br>
 
-Servidor privado de Ragnarok Online em desenvolvimento ativo.
-
-Infraestrutura moderna com Docker, monitoramento e deploy automatizado.
+[![Discord](https://img.shields.io/badge/Discord-Junte--se-FF4500?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/fXDEvhaEY5)
 
 <br>
 
-*Private infrastructure. All repositories are private.*
+*Infraestrutura privada. Todos os repositorios sao privados.*
 
 </div>
